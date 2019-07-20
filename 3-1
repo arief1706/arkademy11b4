@@ -1,0 +1,9 @@
+<?php
+$a = array("Pro", "gram", "merit","it","Programm","erit");
+
+echo "Programmerit= </br> " . $a[0] . ", " . $a[1] . ",". $a[2]. "</br>";
+
+echo " </br> " . $a[0]  . $a[1] . ",". $a[2]. "</br>";
+
+echo " </br> " . $a[4] .  ",". $a[5] . "</br>";
+?>

@@ -1,0 +1,14 @@
+function username(username)
+      { 
+      var letters = /^[A-Za-z]\w{7,14}$/;
+      if(username.value.match(letters))
+      {
+      alert('Oke Mantul');
+      return true;
+      }
+      else
+      {
+      alert('Harus huruf tanpa spesial karakter bos');
+      return false;
+      }
+      }

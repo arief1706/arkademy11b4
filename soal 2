@@ -1,0 +1,14 @@
+function CheckPassword(password) 
+{ 
+var decimal=  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{0,8}$/;
+if(password.value.match(decimal)) 
+{ 
+alert('Oke Mantul')
+return true;
+}
+else
+{ 
+alert('Salah Bro!')
+return false;
+}
+} 
